@@ -60,6 +60,9 @@ code {
   .large-text{
     @apply text-[#6f5643] text-2xl mx-auto;
   }
+  .large-text-nomargin{
+    @apply text-[#6f5643] text-3xl;
+  }
 
   .red-button{
     @apply bg-[#cc6b49] text-[#ece6c2] hover:bg-[#9d492c] w-1/5 p-2 my-2 mx-auto text-4xl rounded-lg;

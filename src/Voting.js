@@ -46,7 +46,7 @@ const Grid = ({ data }) => {
       {rows.map((row, rowIndex) => (
         <div>
           {row.map((element, columnIndex) => (
-            <button className="yellow-button m-2">
+            <button className="yellow-button m-2 w-24 h-16">
               {element !== null ? element : 'Empty'}
             </button>
           ))}
